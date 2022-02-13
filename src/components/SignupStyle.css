@@ -1,0 +1,40 @@
+.container {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgb(194, 188, 188);
+      border-radius: 8px;
+      background-color: rgb(255, 255, 255);
+      margin: 3vh;
+      padding: 1vh;
+      box-shadow: 4px 3px 8px 1px #969696;
+      width: 60vh;
+      font-size: 1.5vh;
+
+}
+
+.SignupInput {
+      width: 20vh;
+}
+
+.registerbtn {
+      width: 20vh;
+
+}
+
+@media screen and (max-width: 600px) {
+      .container {
+            display: flex;
+            flex-direction: column;
+            /* width: 100%; */
+
+      }
+
+      .SignupInput {
+            width: 10vh;
+      }
+
+      .registerbtn {
+            width: 10vh;
+
+      }
+}

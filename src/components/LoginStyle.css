@@ -1,0 +1,21 @@
+.container {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgb(194, 188, 188);
+      border-radius: 8px;
+      background-color: rgb(255, 255, 255);
+      margin: 50px;
+      padding: 11px;
+      box-shadow: 4px 3px 8px 1px #969696;
+      width: 300px;
+
+}
+
+.SignupInput {
+      width: 270px;
+}
+
+.registerbtn {
+      width: 270px;
+
+}
